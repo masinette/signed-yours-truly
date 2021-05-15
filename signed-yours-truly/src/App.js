@@ -1,6 +1,8 @@
 import logo from './treble-clef.svg';
 import './App.css';
 import AlbumCard from './components/AlbumCard'
+import {Container, Row, Col} from 'react-bootstrap'
+
 
 function App() {
   return (
@@ -9,7 +11,12 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
 
-      <AlbumCard />
+        <Container >
+          <Row>
+            <Col></Col>
+            <Col><AlbumCard/></Col>
+          </Row> 
+      </Container>
 
     </div>
   );
