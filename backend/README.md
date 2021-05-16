@@ -1,1 +1,0 @@
-# Signed, Yours Truly
