@@ -1,0 +1,10 @@
+
+/* ***************************LANDING PAGE************************** */
+*{
+  margin: 0 auto;
+}
+.main-page-wrapper{
+  border: green solid 1px;
+  padding-left: 30vw;
+  padding-right: 10vw;
+}
