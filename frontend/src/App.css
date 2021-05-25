@@ -13,9 +13,11 @@
   }
 }
 
-.App-header {
+.sidebar {
   background-color: #1390b3;
-  min-height: 10vh;
+  min-height: 500vh;
+  max-width: 30vw;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
