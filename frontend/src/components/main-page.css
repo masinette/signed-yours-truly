@@ -8,3 +8,8 @@
   padding-left: 30vw;
   padding-right: 10vw;
 }
+
+.album-deck-container{
+  display: flex;
+  flex: wrap;
+}

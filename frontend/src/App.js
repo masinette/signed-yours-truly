@@ -1,6 +1,7 @@
 import logo from './treble-clef.svg';
 import './App.css';
-import AlbumCard from './components/AlbumCard';
+import AlbumCard from './components/album/AlbumCard';
+import AlbumDeck from "./components/album/AlbumDeck";
 import {Container, Row, Col, Navbar} from 'react-bootstrap';
 import LandingPage from "./components/LandingPage";
 
@@ -14,15 +15,14 @@ function App() {
       <div class="sidebar">
         <img src={logo} className="App-logo" alt="logo" />
       </div>
-        <div class="main-page-wrapper">
-        {/* <Container fluid> */}
-          <LandingPage/>
+
+      <div class="main-page-wrapper">
+        <LandingPage/>
           <Row>
-            <Col></Col>
-            <Col><AlbumCard/></Col>
+            {/* <Col></Col> */}
+            <Col><AlbumDeck/></Col>
           </Row> 
       </div>
-      {/* </Container> */}
     </div>
   );
 }

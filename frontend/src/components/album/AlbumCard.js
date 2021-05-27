@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col, Card, Button} from 'react-bootstrap'
+import {Container, Row, Col, Card, Button, CardDeck} from 'react-bootstrap'
 import axios from 'axios';
 
 export default function AlbumCard() {
@@ -13,7 +13,7 @@ export default function AlbumCard() {
 
 
   return (
-    <Container >
+    <CardDeck >
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="../logo.png/100px180" />
         <Card.Body>
@@ -27,7 +27,7 @@ export default function AlbumCard() {
           </Card.Footer>
         </Card.Body>
       </Card>
-    </Container>
+    </CardDeck>
   )
 }
 
